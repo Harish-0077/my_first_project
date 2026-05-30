@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore summer internships, professional training programs, and workshops conducted by SB Institute & Anniyappa Publications in Chennai. Apply now.">
+  <meta name="keywords" content="summer internship Chennai, tech training programs, university workshops, faculty development program FDP, cloud computing certification, computer science training">
+  <meta name="author" content="Dr. C.V. Suresh Babu">
+  <title>Internship & Training | SB Institute</title>
+
+  <!-- Bootstrap CSS (Bootstrap 5.3.2) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- AOS (Animate on Scroll) CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom Styling -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 1. Sticky Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="brand-logo-circle">AP</div>
+        <div class="brand-name-wrapper">
+          <h1 class="brand-title">Anniyappa Publications</h1>
+          <p class="brand-subtitle">SB Institute Collaboration</p>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="bookshelf.html">Bookshelf</a></li>
+          <li class="nav-item"><a class="nav-link" href="books-production.html">Under Production</a></li>
+          <li class="nav-item active"><a class="nav-link" href="internship.html">Internship</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-custom btn-custom-secondary" href="contact.html">Quick Inquiry</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. Header Banner Section -->
+  <header class="bookshelf-header" style="background: linear-gradient(135deg, rgba(30, 27, 75, 0.95), rgba(15, 23, 42, 0.95)), url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center;">
+    <div class="container" data-aos="fade-up" data-aos-duration="800">
+      <span class="section-tag" style="background-color: rgba(255,255,255,0.1); color: var(--secondary-color);">Skill Development</span>
+      <h2 class="text-white font-heading fw-bold display-5 mb-3">Internship & Training</h2>
+      <p class="max-width-600 mx-auto text-white-50">
+        Accelerate your career with hand-on industrial programs, academic workshops, and recognized certification streams.
+      </p>
+    </div>
+  </header>
+
+  <!-- 3. Internship Core Segments (summer courses, FDPs, Certifications) -->
+  <section class="internship-programs">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="800">
+        <span class="section-tag">Learning Portals</span>
+        <h3 class="section-title">Program Segments</h3>
+        <p class="max-width-600 mx-auto text-muted">
+          We offer four distinct paths of academic training tailored for graduate students, faculty members, and working technical personnel.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- Segment 1: Summer Internships -->
+        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+          <div class="card p-4 border-light bg-white shadow-sm h-100 d-flex flex-column">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <span class="badge bg-primary p-3 rounded-3 fs-4 text-warning"><i class="bi bi-brightness-high-fill"></i></span>
+              <div>
+                <h4 class="font-heading text-primary h5 mb-0">1. Summer Internship Programs</h4>
+                <small class="text-muted">Duration: 4 to 8 Weeks | For Undergraduates</small>
+              </div>
+            </div>
+            <p class="text-muted mb-4" style="font-size:0.9rem;">
+              Rigorous, intensive laboratory programs guiding students in building complete portfolio products. Specialized tracks available in Web Development (HTML5/CSS3/NodeJS), Python Machine Learning, and Cloud API structures.
+            </p>
+            <div class="bg-light p-3 rounded-2 mb-4 mt-auto" style="font-size:0.8rem;">
+              <strong>Key Topics:</strong> Version Control (Git), System Logic design, Agile boards, and automated pipeline scripts.
+            </div>
+            <button class="btn btn-custom btn-custom-outline-primary align-self-start" onclick="openEnrollModal('Summer Internship Program')">Apply Program</button>
+          </div>
+        </div>
+
+        <!-- Segment 2: Training Programs -->
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+          <div class="card p-4 border-light bg-white shadow-sm h-100 d-flex flex-column">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <span class="badge bg-primary p-3 rounded-3 fs-4 text-warning"><i class="bi bi-mortarboard-fill"></i></span>
+              <div>
+                <h4 class="font-heading text-primary h5 mb-0">2. Technical Training Programs</h4>
+                <small class="text-muted">Duration: Semester-Long | Customized For Colleges</small>
+              </div>
+            </div>
+            <p class="text-muted mb-4" style="font-size:0.9rem;">
+              Customized training curricula delivered directly inside university laboratories or in online hybrid cycles. We design technical labs that align perfectly with credit expectations while bringing fresh real-world engineering metrics.
+            </p>
+            <div class="bg-light p-3 rounded-2 mb-4 mt-auto" style="font-size:0.8rem;">
+              <strong>Key Topics:</strong> Relational Database Optimization, Artificial Neural Networks, IoT hardware mesh alignments.
+            </div>
+            <button class="btn btn-custom btn-custom-outline-primary align-self-start" onclick="openEnrollModal('Technical Training Program')">Apply Program</button>
+          </div>
+        </div>
+
+        <!-- Segment 3: Workshops & FDPs -->
+        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
+          <div class="card p-4 border-light bg-white shadow-sm h-100 d-flex flex-column">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <span class="badge bg-primary p-3 rounded-3 fs-4 text-warning"><i class="bi bi-people-fill"></i></span>
+              <div>
+                <h4 class="font-heading text-primary h5 mb-0">3. Workshops & FDPs</h4>
+                <small class="text-muted">Duration: 3 to 7 Days | For Faculty & Academicians</small>
+              </div>
+            </div>
+            <p class="text-muted mb-4" style="font-size:0.9rem;">
+              Specialized Faculty Development Programs (FDPs) and research workshops designed to empower engineering educators. Focuses on advanced curricula frameworks, scientific methodology parameters, and sandbox pedagogical systems.
+            </p>
+            <div class="bg-light p-3 rounded-2 mb-4 mt-auto" style="font-size:0.8rem;">
+              <strong>Key Topics:</strong> Technical Writing parameters, Academic Patent models, Research Grant proposal drafts.
+            </div>
+            <button class="btn btn-custom btn-custom-outline-primary align-self-start" onclick="openEnrollModal('Faculty Workshop / FDP')">Apply Program</button>
+          </div>
+        </div>
+
+        <!-- Segment 4: Certification Courses -->
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
+          <div class="card p-4 border-light bg-white shadow-sm h-100 d-flex flex-column">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <span class="badge bg-primary p-3 rounded-3 fs-4 text-warning"><i class="bi bi-award-fill"></i></span>
+              <div>
+                <h4 class="font-heading text-primary h5 mb-0">4. Professional Certifications</h4>
+                <small class="text-muted">Duration: Flexible | For Career Acceleration</small>
+              </div>
+            </div>
+            <p class="text-muted mb-4" style="font-size:0.9rem;">
+              Intensive, exam-targeted prep courses guiding applicants in acquiring industry-validated certifications in Amazon Web Services (AWS Cloud Practitioner), Python Programming, and Java Software development.
+            </p>
+            <div class="bg-light p-3 rounded-2 mb-4 mt-auto" style="font-size:0.8rem;">
+              <strong>Key Topics:</strong> Exam simulation question sets, virtual mock tests, sandbox configurations.
+            </div>
+            <button class="btn btn-custom btn-custom-outline-primary align-self-start" onclick="openEnrollModal('Professional Certification Prep')">Apply Program</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Registration Information Section -->
+  <section class="internship-registration bg-warm">
+    <div class="container">
+      <div class="card border-0 shadow-lg overflow-hidden rounded-3 bg-white" data-aos="zoom-in" data-aos-duration="800">
+        <div class="row g-0">
+          <div class="col-lg-5 bg-primary text-white p-5 d-flex flex-column justify-content-between">
+            <div>
+              <h3 class="font-heading text-warning fw-bold mb-3">Registration Process</h3>
+              <p class="small text-white-50 mb-4">
+                Follow these simple administrative coordinates to register and book your program seat at SB Institute.
+              </p>
+              
+              <div class="d-flex gap-3 mb-4">
+                <div class="fs-4 text-warning"><i class="bi bi-1-circle"></i></div>
+                <div>
+                  <h6 class="mb-0 fw-bold">Step 1: Select Your Stream</h6>
+                  <p class="small text-white-50 mb-0">Choose your desired training module (AI, Cloud, DevOps, or Web Technology).</p>
+                </div>
+              </div>
+              
+              <div class="d-flex gap-3 mb-4">
+                <div class="fs-4 text-warning"><i class="bi bi-2-circle"></i></div>
+                <div>
+                  <h6 class="mb-0 fw-bold">Step 2: Submit Inquiry Form</h6>
+                  <p class="small text-white-50 mb-0">Submit your registration details or call the academic board office.</p>
+                </div>
+              </div>
+
+              <div class="d-flex gap-3">
+                <div class="fs-4 text-warning"><i class="bi bi-3-circle"></i></div>
+                <div>
+                  <h6 class="mb-0 fw-bold">Step 3: Verification & Syllabus Kit</h6>
+                  <p class="small text-white-50 mb-0">Our coordinator evaluates credentials and issues your program seat syllabus kit.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="mt-5 border-top border-secondary pt-3 small text-white-50">
+              <i class="bi bi-info-circle-fill"></i> For institutional bulk enrollments, please contact <strong>sureshbabu.cv@gmail.com</strong> directly.
+            </div>
+          </div>
+
+          <div class="col-lg-7 p-5">
+            <h4 class="font-heading text-primary fw-bold mb-4">Enrollment Inquiry Portal</h4>
+            
+            <form id="internship-enroll-form" onsubmit="handleEnrollmentInquiry(event)">
+              <div class="row g-3">
+                
+                <div class="col-md-6">
+                  <div class="form-group-custom">
+                    <label class="form-label-custom" for="enrollName">Full Name</label>
+                    <input type="text" id="enrollName" class="form-control-custom" placeholder="John Doe" required>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group-custom">
+                    <label class="form-label-custom" for="enrollEmail">Email Address</label>
+                    <input type="email" id="enrollEmail" class="form-control-custom" placeholder="john@example.com" required>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group-custom">
+                    <label class="form-label-custom" for="enrollPhone">Contact Number</label>
+                    <input type="tel" id="enrollPhone" class="form-control-custom" placeholder="+91 99622 83935" required>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group-custom">
+                    <label class="form-label-custom" for="enrollCollege">College / Institution</label>
+                    <input type="text" id="enrollCollege" class="form-control-custom" placeholder="University / Company Name" required>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-group-custom">
+                    <label class="form-label-custom" for="enrollProgram">Select Desired Program</label>
+                    <select id="enrollProgram" class="form-control-custom" style="appearance: auto;" required>
+                      <option value="">-- Choose Segment --</option>
+                      <option value="Summer Internship Program">Summer Internship Program</option>
+                      <option value="Technical Training Program">Technical Training Program</option>
+                      <option value="Faculty Workshop / FDP">Faculty Workshop / FDP</option>
+                      <option value="Professional Certification Prep">Professional Certification Prep</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-group-custom">
+                    <label class="form-label-custom" for="enrollMessage">Brief Statement of Purpose</label>
+                    <textarea id="enrollMessage" class="form-control-custom" rows="3" placeholder="Tell us why you are interested in this program..." required></textarea>
+                  </div>
+                </div>
+
+                <div class="col-12 text-end">
+                  <button type="submit" class="btn btn-custom btn-custom-secondary px-5 text-white">
+                    Submit Enrollment Inquiry <i class="bi bi-send-fill ms-2"></i>
+                  </button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Premium Rich Footer -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <div class="brand-logo-circle" style="width: 35px; height: 35px; font-size: 0.95rem;">AP</div>
+            <div>
+              <h5 class="footer-brand-title">Anniyappa Publications</h5>
+              <p class="footer-brand-subtitle">SB Institute</p>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Connecting academia with top-tier industrial perspectives. Providing textbooks, internship guides, and professional curriculums authored by industry specialists to elevate modern education.
+          </p>
+          <div class="footer-newsletter">
+            <h6 class="text-white mb-2">Subscribe to our Newsletter</h6>
+            <form class="footer-newsletter-form">
+              <input type="email" placeholder="Your corporate or personal email" required>
+              <button type="submit" class="btn-subscribe">Join</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="footer-title">Explore</h5>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="bi bi-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right"></i> About Us</a></li>
+            <li><a href="bookshelf.html"><i class="bi bi-chevron-right"></i> Bookshelf</a></li>
+            <li><a href="books-production.html"><i class="bi bi-chevron-right"></i> Coming Soon</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="footer-title">Join Us</h5>
+          <ul class="footer-links">
+            <li><a href="internship.html"><i class="bi bi-chevron-right"></i> Internships</a></li>
+            <li><a href="internship.html"><i class="bi bi-chevron-right"></i> Workshops</a></li>
+            <li><a href="gallery.html"><i class="bi bi-chevron-right"></i> Student Life</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5 class="footer-title">Contact Address</h5>
+          <ul class="footer-contact-info">
+            <li>
+              <i class="bi bi-geo-alt-fill"></i>
+              <span>No 4/9, 2nd Main Rd, CIT Nagar East, Nandanam, Chennai, Tamil Nadu 600035, India.</span>
+            </li>
+            <li>
+              <i class="bi bi-envelope-fill"></i>
+              <span>sureshbabu.cv@gmail.com</span>
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill"></i>
+              <span>+91 99622 83935</span>
+            </li>
+          </ul>
+          <div class="footer-social-icons">
+            <a href="https://youtube.com/@DrCVSureshBabusClasses" target="_blank" rel="noopener" class="social-icon-btn" title="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/cvsureshbabu/" target="_blank" rel="noopener" class="social-icon-btn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://instagram.com/anniyappa_publications" target="_blank" rel="noopener" class="social-icon-btn" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/p/Anniyappa-publication-100066555728587/" target="_blank" rel="noopener" class="social-icon-btn" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/919962283935" target="_blank" rel="noopener" class="social-icon-btn" title="WhatsApp Community"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center footer-bottom">
+          <p class="mb-0">&copy; <span class="current-year"></span> Anniyappa Publications & SB Institute. Developed for academic excellence. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (Includes Popper.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- AOS (Animate on Scroll) JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Initialize Animate On Scroll
+    AOS.init({
+      once: true,
+      duration: 800
+    });
+
+    /**
+     * Dynamically opens the enrollment flow, selecting the specific program card.
+     */
+    function openEnrollModal(programName) {
+      const selectEl = document.getElementById('enrollProgram');
+      if (selectEl) {
+        selectEl.value = programName;
+      }
+      // Scroll to registration block
+      document.querySelector('.internship-registration').scrollIntoView({ behavior: 'smooth' });
+      
+      // Flash the selected form value to wow user
+      selectEl.style.outline = '3px solid var(--secondary-color)';
+      setTimeout(() => {
+        selectEl.style.outline = 'none';
+      }, 1500);
+    }
+
+    /**
+     * Triggers clean alert upon successful enrollment inquiry submission.
+     */
+    function handleEnrollmentInquiry(e) {
+      e.preventDefault();
+      
+      const name = document.getElementById('enrollName').value.trim();
+      const email = document.getElementById('enrollEmail').value.trim();
+      const program = document.getElementById('enrollProgram').value;
+
+      if (!name || !email || !program) {
+        if (window.showToastAlert) {
+          window.showToastAlert('Please fill out all required fields.', 'danger');
+        }
+        return;
+      }
+
+      // Trigger custom global toast alert
+      if (window.showToastAlert) {
+        window.showToastAlert(`Thank you ${name}! Your enrollment request for "${program}" has been registered successfully.`, 'success');
+      }
+
+      // Reset form
+      document.getElementById('internship-enroll-form').reset();
+    }
+  </script>
+  
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
